@@ -3,6 +3,7 @@
   "displayName": "Directory Drag Drop",
   "description": "It restores old VS Code behavior on dragging and dropping a folder to the editor area (it opens as a workspace in the same window)",
   "version": "0.0.1",
+  "repository": {"url": "https://github.com/PeterAyad/Directory-Drag-Drop"},
   "engines": {
     "vscode": "^1.97.0"
   },
