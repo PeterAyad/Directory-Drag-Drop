@@ -1,5 +1,7 @@
 # Directory Drag Drop
 
+![Icon](./icon/6214098.png)
+
 This extension restores old VS Code behavior on dragging and dropping a folder to the editor area (it opens as a workspace in the same window)
 
 ## Installation
