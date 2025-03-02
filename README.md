@@ -9,7 +9,7 @@ This extension restores old VS Code behavior on dragging and dropping a folder t
 It can be installed by one of the following methods:
 
 - From the [MarketPlace](https://marketplace.visualstudio.com/items?itemName=PeterAyad.directory-drag-drop&ssr=false)
-- Using [VSIX File](./directory-drag-drop-0.0.1.vsix)
+- Using [VSIX File](./directory-drag-drop-1.0.1.vsix)
 
 ## Notes
 

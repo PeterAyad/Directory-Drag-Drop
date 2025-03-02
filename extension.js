@@ -17,7 +17,7 @@ function checkFileType(filePath) {
 	} catch (error) {
 		// console.error("Error checking path:", error);
 	}
-	return "Unknown"; 
+	return "Unknown";
 }
 
 
@@ -35,7 +35,9 @@ function activate() {
 				// console.log(type);
 				if (type == "Directory") {
 					// console.log("I will open " + resourceUri);
-					vscode.commands.executeCommand('vscode.openFolder', tab.input?.uri, false);
+					vscode.commands.executeCommand('vscode.openFolder', tab.input?.uri, false).then(() => {
+						vscode.commands.executeCommand('workbench.action.closeActiveEditor');
+					});
 				}
 				// vscode.window.showInformationMessage(`Path: ${resourceUri} ➝ ${type}`);
 			}
